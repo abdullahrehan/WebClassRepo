@@ -1,0 +1,514 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #F1F1F1;
+}
+.cars-body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+ 
+.cars-header{
+    width: 99vw;
+    height: 9vh;
+    background-color: #3C3C3C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#efox_heading{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 700;
+    color: white;
+}
+
+#select_main_div{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#location_icon{
+    padding-left: 4px;
+}
+
+#select_text{
+    padding-left: 4px;
+
+}
+
+#open_icon{
+    padding-left: 4px;
+
+}
+
+
+#search_bar_main_div{
+    width: 50%;
+    height: 77%;
+    border-radius: 2px;
+    background-color: EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search_categories_main_div{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.8px solid;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+#categories_icon_1{
+    padding-left: 10px;
+
+}
+
+#all_categories_text{
+    padding-left: 10px;
+
+}
+
+#categories_icon_2{
+    padding-left: 10px;
+
+}
+
+#search_bar_search_div{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#search_bar{
+    color: #838383;
+    font-size: 20;
+}
+
+#search_icon_main_div{
+    width: 20%;
+    height: 100%;
+    background-color: #6A6A6A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+}
+
+#search_icon{
+
+}
+
+#register_main_div{
+    width: 8.3333%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#register_icon_div{
+
+}
+
+#register_text_div{
+    padding-left: 5px;
+
+}
+
+#login_main_div{
+    width: 8.3333%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#login_icon_div{
+}
+
+#login_text_div{
+    padding-left: 5px;
+
+}
+
+#sell_main_div{
+    width: 8.3333%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sell_icon_div{
+
+}
+
+#sell_text_div{
+
+
+
+}
+
+.cars-first-screen-main-div{
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+}
+
+#header_bottom{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    flex-direction: row;
+    background-color: #696868;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.header_bottom_headings{
+    padding-left: 30;
+    color: white;
+}
+
+#main_screen_main_content{
+    width: 100%;
+    height: 91%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+}
+
+
+#slider_main_screen{
+    width: 90%;
+    height: 92%;
+    border-radius: 6px;
+    position: relative;
+}
+
+#slider_image_main_div{
+    width: 100%;
+    height: 100%;
+}
+
+#slider_image{
+    width: 100%;
+    height: 100%;
+}
+
+
+#slider_buttons_main_div{
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    top: 155px;
+
+}
+
+#slider_left_button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #D7D7D7;
+    margin-left: 10px;
+}
+
+#slider_right_button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #D7D7D7;
+    margin-right: 10px;
+}
+
+#slider_pagination_div{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #3C3C3C;
+}
+
+#categories_screen{
+    width: 100vw;
+    height: 50vh;
+}
+
+#catagories_div{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 36px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.options_main_div{
+    width: 100%;
+    height: 90%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards_div{
+    width: 230px;
+    height: 300px;
+    background-color: turquoise;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.image-1{
+    background: rgba(0,0,0,0.7)url(./Icons/furniture.png);
+}
+.image-2{
+    background: rgba(0,0,0,0.7)url(./Icons/electronics.png);
+}
+.image-3{
+    background: rgba(0,0,0,0.7)url(./Icons/fashion.png);
+}
+.image-4{
+    background: rgba(0,0,0,0.7)url(./Icons/buildings.png);
+}
+.image-5{
+    background: rgba(0,0,0,0.7)url(./Icons/Pets.png);
+}
+
+.cards_image{
+    background-blend-mode:darken ;
+    width: 100%;
+    height: 100%;
+    background-color: #0008;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cards_title{
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin-top: 15px;
+    color: white;
+}
+
+.cards_logo{
+    width: 50px;
+    height: 50px;
+    background: url(./Icons/furniturelogo.png);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#logo_img{
+    
+}
+
+#latest_listing_main_div{
+    width: 100vw;
+    height: 50vh;
+}
+
+#latest_listing_title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding-left: 33px;
+    font-size: x-large;
+    align-items: center;
+
+}
+
+#latest_listing_cards_main_div{
+    width: 96vw;
+    height: 90%;
+    display: flex;
+    padding-left: 33px;
+    font-size: x-large;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.latest_listing_cards_div{
+    width: 235px;
+    height: 300px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+
+
+.latest_listing_cards_image_div{
+    width: 100%;
+    height: 45%;
+}
+.car_image_1{
+    
+    background: url(./Icons/car1.png);
+
+}
+
+.car_image_2{
+    
+    background: url(./Icons/car2.png);
+
+}
+
+.car_image_3{
+    
+    background: url(./Icons/car3.png);
+
+}
+
+.car_image_4{
+    
+    background: url(./Icons/car4.png);
+
+}
+
+.car_image_5{
+    
+    background: url(./Icons/car5.png);
+
+}
+.latest_listing_cards_ends_in_div{
+    width: 100%;
+    height: 15%;
+    /* background-color: sienna; */
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 25px; */
+
+}
+
+
+#catagory_logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #96E39D;
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#ends_in_title{
+    width: 180px;
+    height: 30px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 24px;
+    font-size: 14px;
+}
+
+.latest_listing_cards_car_name_div{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.latest_listing_cards_car_description_div{
+    width: 90%;
+    height: 20%;
+    font-size: 14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latest_listing_cards_car_price_div{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5px;
+    font-size: 18;
+}

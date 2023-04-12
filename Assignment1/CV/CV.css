@@ -1,0 +1,328 @@
+.main-body{
+    display: flex;
+    justify-content: center;
+}
+
+.cv-main-div{
+    display: flex;
+    flex-direction: row; 
+    width: 60vw;
+    height: 140vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner-section{
+    width: 60vw;
+    height: 20vh;
+    background-color: rgb(0, 177, 156);
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-left-text-section{
+   width: 75%;
+   height: 100%;
+}
+
+.banner-name-div{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    font-size: xx-large;
+    color: white;
+ 
+}
+
+.banner-title-div{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    padding-left: 30px;
+    font-size: x-large;
+}
+
+.banner-image-section{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-image-div{
+    width: 180px;
+    height: 180px;
+    background-color: aliceblue;
+    border-radius: 100px;
+    position: relative;
+    bottom: 20px; ;
+
+}
+
+.left-section{
+    width: 40vw;
+    height: 100%;
+    background-color: rgb(39, 55, 67);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.personal-info-section{
+    width: 100%;
+    height: 30vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.personal-info-main-div{
+    width: 88%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+.gender-section{
+    width: 100%;
+    height: 22%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-div{
+    width: 20%;
+    height: 100%;
+    /* background-color: slategrey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-div{
+    width: 80%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+}
+
+
+.phone-no-section{
+    width: 100%;
+    height: 22%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+}
+
+.email-section{
+    width: 100%;
+    height: 22%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+}
+
+.github-section{
+    width: 100%;
+    height: 22%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+.skills-section{
+    width: 100%;
+    height: 30vh;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.skills-main-div{
+    width: 88%;
+    height: 95%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-title-div{
+    width: 100%;
+    height: 15%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+
+}
+
+.skills-set-main-div{
+    width: 100%;
+    height: 85%;
+    /* background-color: blue; */
+}
+
+.skills-set-div{
+    width: 100%;
+    height: 33.3%;
+    /* background-color:tomato; */
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-set-title-div{
+    width: 60%;
+    height: 100%;
+    /* background-color: springgreen; */
+    display: flex;
+    padding-left: 10px;
+    align-items: center;    
+}
+
+.skills-set-percentage-div{
+    width: 40%;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional-skills-section{
+    width: 100%;
+    height: 45vh;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.additional-skills-main-div{
+    width: 88%;
+    height: 90%;
+    /* background-color: aqua; */
+}
+
+.right-section{
+    width: 70vw;
+    height: 100%;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    
+}
+
+.right-main-div{
+    width: 96%;
+    height: 80%;
+    /* background-color: #0009; */
+}
+
+.introduction-main-div{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+}
+
+.introduction-title-div{
+    width: 100%;
+    height: 25%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-text-div{
+    width: 25%;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+
+.introduction-line-div{
+    width: 80%;
+    height: 1%;
+    background-color: black;
+}
+
+.introduction-content-div{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction:  column;
+    /* background-color: aqua; */
+    padding-left: 10px;
+
+}
+.experience-points-main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.objective-main-div{
+
+}
+
+.experience-main-div{
+
+}
+
+.personal-projects-main-div{
+
+}
+
+.problem-solving-main-div{
+
+}
+
+
+.additional-skills-title-div{
+    width: 100%;
+    height: 6vh;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+
+}
+
+.additional-skills-set-div{
+    width: 100%;
+    height: 35vh;
+    /* background-color: greenyellow; */
+}
+
